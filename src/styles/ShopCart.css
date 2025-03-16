@@ -1,0 +1,52 @@
+.ShowShopCart{
+    transform: translateX(0) !important;
+}
+
+.ShopCart{
+    height: 100vh;
+    width: 330px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #111113ea;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    overflow-y: scroll;
+    z-index: 1000;
+    padding-top: 80px;
+    transform: translateX(100%);
+    transition: .4s;
+}
+.ShopCart::-webkit-scrollbar{
+    background-color: #111113ea;
+}
+.ShopCart::-webkit-scrollbar-thumb{
+    background-color: #444;
+    border-radius: 20px;
+}
+
+
+.CardLivroshop{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 140px;
+    width: 320px;
+    border: 1px solid #fff;
+}
+.CardLivroshop img{
+    width: 42%;
+}
+.CardLivroshop .Descricao{
+    border-left: 2px solid #eee;
+    text-align: left;
+    color: #eee;
+    padding-left: 8px;
+    
+}
+.CardLivroshop .Descricao h1{
+    font-size: 1rem;
+}
